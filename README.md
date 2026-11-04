@@ -17,7 +17,7 @@ I turn ideas into usable software—from interactive web experiences to document
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[THE PARADOX ROOM](https://github.com/Dhivyaprakash-hub/the-paradox-room)** · [Play](https://the-paradox-room.cookie-song-938.workers.dev/) | A live multiplayer mystery where players investigate different versions of one room and piece together a shared timeline. | TypeScript · Cloudflare Workers · Durable Objects |
-| **[Careway](https://github.com/Dhivyaprakash-hub/Hospital-application/tree/codex/modern-portfolio-app)** | A healthcare operations experience rebuilt around clear workflows, a modern interface, and a Spring Boot API. | React · TypeScript · Spring Boot |
+| **[Careway](https://github.com/Dhivyaprakash-hub/Hospital-application/tree/codex/careway-clean-review)** | A healthcare operations experience rebuilt around clear workflows, a modern interface, and a Spring Boot API. | React · TypeScript · Spring Boot |
 | **[Wellnest](https://github.com/Dhivyaprakash-hub/demo-screen/tree/codex/modern-portfolio-app)** | A clinical product catalog interface with searchable sample data and careful health-content boundaries. | React · TypeScript · Vite |
 | **[Taskflow](https://github.com/Dhivyaprakash-hub/Angular-POC/tree/codex/modern-portfolio-app)** | A focused task-management application with a responsive Angular interface and persistent workspaces. | Angular · TypeScript |
 | **[FRAME](https://github.com/Dhivyaprakash-hub/workshop-graphql-netflix/tree/codex/modern-portfolio-app)** | A cinematic discovery experience for exploring films and curated collections. | React · TypeScript |
