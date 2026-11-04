@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="82" y1="28" x2="1470" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1020"/>
+      <stop offset=".55" stop-color="#101A35"/>
+      <stop offset="1" stop-color="#21113A"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="1120" y1="62" x2="1430" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42D6FF" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="96" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#44D7FF"/>
+      <stop offset=".56" stop-color="#846BFF"/>
+      <stop offset="1" stop-color="#846BFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="940" y="-60" width="680" height="620" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="54"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="480" rx="28" fill="url(#bg)"/>
+  <circle cx="1300" cy="226" r="210" fill="url(#glow)" filter="url(#blur)"/>
+  <g opacity=".21" stroke="#A9B7D9">
+    <path d="M1050 0v480M1130 0v480M1210 0v480M1290 0v480M1370 0v480M1450 0v480M1530 0v480"/>
+    <path d="M960 80h640M960 160h640M960 240h640M960 320h640M960 400h640"/>
+  </g>
+  <g opacity=".72" stroke="url(#rule)" stroke-width="2">
+    <path d="M1000 342c92-32 142-127 251-127 71 0 93 49 154 49 64 0 101-73 195-73"/>
+    <path d="M1000 369c102-30 148-102 247-102 79 0 112 40 168 40 67 0 96-51 185-59" opacity=".55"/>
+  </g>
+  <circle cx="1250" cy="215" r="5" fill="#57E0FF"/>
+  <circle cx="1405" cy="264" r="5" fill="#A78BFA"/>
+  <circle cx="1514" cy="191" r="5" fill="#57E0FF"/>
+  <rect x="96" y="93" width="43" height="4" rx="2" fill="#52DFFF"/>
+  <text x="96" y="165" fill="#DCE8FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="5">SOFTWARE ENGINEER</text>
+  <text x="92" y="245" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="750" letter-spacing="-2">Dhivyaprakash N</text>
+  <text x="96" y="294" fill="#BBC8E2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Building thoughtful products across the stack.</text>
+  <text x="96" y="376" fill="#91A2C5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="1.3">PRODUCT THINKING  ·  FULL-STACK DELIVERY  ·  RELIABLE SYSTEMS</text>
+  <rect x="96" y="420" width="1408" height="2" rx="1" fill="url(#rule)" opacity=".85"/>
+</svg>
