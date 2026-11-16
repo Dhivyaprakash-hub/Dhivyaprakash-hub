@@ -27,3 +27,7 @@ A consultation-booking demo using fictional listings. A Spring transaction locks
 - [Wellnest](https://github.com/Dhivyaprakash-hub/demo-screen) · A React catalog with search, filters, saved items, and product comparison. [Open the demo](https://dhivyaprakash-hub.github.io/demo-screen/)
 - [Taskflow](https://github.com/Dhivyaprakash-hub/Angular-POC) · An Angular task board with browser-local workspaces. [Open the demo](https://dhivyaprakash-hub.github.io/Angular-POC/)
 - [MindMate](https://github.com/Dhivyaprakash-hub/MindMate) · A browser journal with local storage, export, and deletion controls. [Open the demo](https://dhivyaprakash-hub.github.io/MindMate/)
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/dhivyaprakash/) · [Email](mailto:dhivyaprakashn@outlook.com)
