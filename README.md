@@ -27,5 +27,3 @@ A consultation-booking demo using fictional listings. A Spring transaction locks
 - [Wellnest](https://github.com/Dhivyaprakash-hub/demo-screen) · A React catalog with search, filters, saved items, and product comparison. [Open the demo](https://demo-screen-ivory.vercel.app/)
 - [Taskflow](https://github.com/Dhivyaprakash-hub/Angular-POC) · An Angular task board with browser-local workspaces.
 - [MindMate](https://github.com/Dhivyaprakash-hub/MindMate) · A browser journal with local storage, export, and deletion controls.
-- [Climate Atlas](https://github.com/Dhivyaprakash-hub/Climatic_Visualization) · A coursework data explorer with country and month comparisons.
-- [FRAME](https://github.com/Dhivyaprakash-hub/workshop-graphql-netflix) · A React film explorer rebuilt from a GraphQL workshop repository.
