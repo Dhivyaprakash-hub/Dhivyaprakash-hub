@@ -1,33 +1,64 @@
-# Dhivyaprakash N
+<p align="center">
+  <img src="assets/profile-header.svg" alt="Dhivyaprakash N — Software Engineer focused on systems and product engineering" width="100%">
+</p>
 
-I build web applications and investigate data questions. My current projects cover multiplayer room state, appointment booking, and a retrospective study of flight delays.
+<p align="center">
+  <a href="https://the-paradox-room.cookie-song-938.workers.dev/"><strong>PLAY THE PARADOX ROOM</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/dhivyaprakash/">LinkedIn</a>
+</p>
+
+## About
+
+I’m a software engineer with nearly four years in IT. I build web applications and services with attention to the details that make them dependable: clear APIs, safe state changes, useful tests, and interfaces people can understand.
+
+My work spans real-time multiplayer systems, transactional booking workflows, and data exploration.
 
 ## Selected work
 
-### The Paradox Room · Multiplayer systems
+### The Paradox Room · Real-time multiplayer
 
-A browser mystery for 4–8 players. A Cloudflare Durable Object owns each room's phase changes, ballots, and private evidence. The server sends each player a filtered view. A four-client integration test exercises a full round and verifies that a consumed WebSocket ticket cannot be reused.
+A browser mystery where each witness explores a different version of the room. Play solo with three rule-based AI witnesses or invite people to a private match.
 
-[Play a round](https://the-paradox-room.cookie-song-938.workers.dev/) · [Architecture and security](https://github.com/Dhivyaprakash-hub/the-paradox-room/blob/main/docs/architecture.md) · [Integration test](https://github.com/Dhivyaprakash-hub/the-paradox-room/blob/main/tests/multiplayer.integration.mjs)
+- **Built with:** TypeScript, Cloudflare Workers, Durable Objects, WebSockets
+- **Engineering focus:** Server-owned room state, private evidence projections, reconnect-safe sessions, and full-round multiplayer tests
+- [Play the game](https://the-paradox-room.cookie-song-938.workers.dev/) · [Architecture and security](https://github.com/Dhivyaprakash-hub/the-paradox-room/blob/main/docs/architecture.md) · [Source](https://github.com/Dhivyaprakash-hub/the-paradox-room)
 
-### AeroPulse · Data and applied modeling
+### Careway · Appointment booking
 
-A retrospective comparison of two flight-delay models on the same 2.82 million held-out flights. Prior-leg features reduced mean absolute error from 19.317 to 19.218 minutes, a gain of about six seconds per flight. Candidate links use reported flight records, and aircraft assignments at prediction time are unverified.
+A booking application using fictional listings. The Spring service locks the doctor record during booking, while a database constraint protects a time slot from duplicate reservations. A concurrency test races two bookings for the same slot.
 
-[Study and reproduction steps](https://github.com/Dhivyaprakash-hub/AeroPulse) · [Model card](https://github.com/Dhivyaprakash-hub/AeroPulse/blob/main/MODEL_CARD.md) · [Model implementation](https://github.com/Dhivyaprakash-hub/AeroPulse/blob/main/src/run_model_comparison.py)
+- **Built with:** Java, Spring Boot, React, H2
+- [Run locally](https://github.com/Dhivyaprakash-hub/Hospital-application#run-locally) · [Booking service](https://github.com/Dhivyaprakash-hub/Hospital-application/blob/main/backend/src/main/java/com/dhivya/consultation/AppointmentService.java) · [Concurrency test](https://github.com/Dhivyaprakash-hub/Hospital-application/blob/main/backend/src/test/java/com/dhivya/consultation/AppointmentConcurrencyTest.java)
 
-### Careway · Java and React
+### AeroPulse · Applied data analysis
 
-A consultation-booking demo using fictional listings. A Spring transaction locks the doctor's row during booking, and a database constraint enforces uniqueness for each doctor, date, and time. The H2 integration test runs two concurrent booking calls for the same slot and checks that exactly one booking succeeds.
+A retrospective comparison of two flight-delay models across 2.82 million held-out flights. The analysis reports a modest improvement and documents limitations around aircraft assignment data.
 
-[Run locally](https://github.com/Dhivyaprakash-hub/Hospital-application#run-locally) · [Booking service](https://github.com/Dhivyaprakash-hub/Hospital-application/blob/main/backend/src/main/java/com/dhivya/consultation/AppointmentService.java) · [Concurrency test](https://github.com/Dhivyaprakash-hub/Hospital-application/blob/main/backend/src/test/java/com/dhivya/consultation/AppointmentConcurrencyTest.java)
+- **Built with:** Python, pandas, scikit-learn
+- [Study and reproduction steps](https://github.com/Dhivyaprakash-hub/AeroPulse) · [Model card](https://github.com/Dhivyaprakash-hub/AeroPulse/blob/main/MODEL_CARD.md)
+
+### Climate Atlas · Data exploration
+
+A responsive dashboard for exploring a supplied climate-temperature snapshot with monthly heatmaps, country comparisons, search, and CSV export. The README documents the dataset’s source and limitations.
+
+- **Built with:** HTML, CSS, JavaScript, CSV
+- [Explore the project](https://github.com/Dhivyaprakash-hub/Climatic_Visualization)
+
+## Technical focus
+
+**Backend:** Java · Spring Boot · REST APIs · PostgreSQL · Cloudflare Workers  
+**Frontend:** TypeScript · JavaScript · React · HTML · CSS  
+**Data:** Python · pandas · scikit-learn  
+**Engineering:** concurrency · real-time state · API security · integration testing · observability
 
 ## More work
 
-- [Wellnest](https://github.com/Dhivyaprakash-hub/demo-screen) · A React catalog with search, filters, saved items, and product comparison. [Open the demo](https://dhivyaprakash-hub.github.io/demo-screen/)
-- [Taskflow](https://github.com/Dhivyaprakash-hub/Angular-POC) · An Angular task board with browser-local workspaces. [Open the demo](https://dhivyaprakash-hub.github.io/Angular-POC/)
-- [MindMate](https://github.com/Dhivyaprakash-hub/MindMate) · A browser journal with local storage, export, and deletion controls. [Open the demo](https://dhivyaprakash-hub.github.io/MindMate/)
+- [Car Rental System API](https://github.com/Dhivyaprakash-hub/Car-Rental-System-API) · Spring Boot and PostgreSQL API
+- [Wellnest](https://github.com/Dhivyaprakash-hub/demo-screen) · Searchable product catalog with comparison and saved items · [Demo](https://dhivyaprakash-hub.github.io/demo-screen/)
+- [Taskflow](https://github.com/Dhivyaprakash-hub/Angular-POC) · Angular task board with browser-local workspaces · [Demo](https://dhivyaprakash-hub.github.io/Angular-POC/)
+- [MindMate](https://github.com/Dhivyaprakash-hub/MindMate) · Browser journal with local storage, export, and deletion controls
 
-## Contact
+---
 
-[LinkedIn](https://www.linkedin.com/in/dhivyaprakash/) · [Email](mailto:dhivyaprakashn@outlook.com)
+<sub>Good software is clear in the interface, careful with data, and reliable when the important request arrives.</sub>
