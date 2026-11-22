@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.svg" alt="Dhivyaprakash N — Software Engineer focused on systems and product engineering" width="100%">
+  <img src="assets/profile-banner.svg" alt="Dhivyaprakash N — Software Engineer focused on systems and product engineering" width="100%">
 </p>
 
 <p align="center">
