@@ -43,7 +43,7 @@ A retrospective comparison of two flight-delay models across 2.82 million held-o
 A responsive dashboard for exploring a supplied climate-temperature snapshot with monthly heatmaps, country comparisons, search, and CSV export. The README documents the dataset’s source and limitations.
 
 - **Built with:** HTML, CSS, JavaScript, CSV
-- [Explore the project](https://github.com/Dhivyaprakash-hub/Climatic_Visualization)
+- [Open the live dashboard](https://dhivyaprakash-hub.github.io/Climatic_Visualization/) · [Source and data notes](https://github.com/Dhivyaprakash-hub/Climatic_Visualization)
 
 ## Technical focus
 
